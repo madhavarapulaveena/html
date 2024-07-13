@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Makeup</title>
+	<style>
+		body {
+            background-image: url("https://i.pinimg.com/564x/bb/93/9d/bb939d9f134b2e4946fc0e22000c40de.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+		
+		.header {
+			background-color: #f0f0f0;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.product-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			padding: 20px;
+		}
+		
+		.product {
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.product img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 10px 10px 0 0;
+		}
+		
+		.product-info {
+			padding: 10px;
+		}
+		
+		.product-info h2 {
+			margin-top: 0;
+		}
+		
+		.product-info p {
+			margin-bottom: 20px;
+		}
+		
+		.button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #3e8e41;
+		}
+		
+		.category {
+			margin-bottom: 20px;
+		}
+		
+		.category h2 {
+			margin-top: 0;
+		}
+		
+		.category ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.category li {
+			margin-bottom: 10px;
+		}
+		
+		.category a {
+			color: #337ab7;
+			text-decoration: none;
+		}
+		
+		.category a:hover {
+			color: #23527c;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<h1>Cosmetics</h1>
+	</header>
+	
+	<div class="category">
+		<h2>Eyes</h2>
+		<ul>
+			<li><a href="#">Eyeshadow</a></li>
+			<li><a href="#">Mascara</a></li>
+			<li><a href="#">Eyeliner</a></li>
+		</ul>
+	</div>
+	
+	<div class="category">
+		<h2>Face</h2>
+		<ul>
+			<li><a href="#">Foundation</a></li>
+			<li><a href="#">Concealer</a></li>
+			<li><a href="#">Powder</a></li>
+		</ul>
+	</div>
+	
+	<div class="category">
+		<h2>Lips</h2>
+		<ul>
+			<li><a href="#">Lipstick</a></li>
+			<li><a href="#">Lip Gloss</a></li>
+			<li><a href="#">Lip Liner</a></li>
+		</ul>
+	</div>
+	
+	<div class="product-grid">
+		<div class="product">
+			<img src="https://i.pinimg.com/236x/37/bb/fa/37bbfa29929e93075c16ddf7569d7461.jpg" alt="Product 1">
+			<div class="product-info">
+				<h2>Urban Decay Naked Palette</h2>
+				<p>A neutral eyeshadow palette with 12 shades</p>
+				<button class="button">Buy Now</button>
+			</div>
+		</div>
+		
+		<div class="product">
+			<img src="https://i.pinimg.com/236x/60/cb/5c/60cb5ceea55bbe7e28bffb25e1c22a10.jpg" alt="Product 2">
+			<div class="product-info">
+				<h2>L'Oréal Paris True Match Foundation</h2>
+				<p>A foundation that matches your skin tone</p>
+				<button class="button">Buy Now</button>
+			</div>
+		</div>
+		
+		<div class="product">
+			<img src="https://i.pinimg.com/236x/e4/e1/38/e4e1385630a09b854408122e85f4267a.jpg" alt="Product 3">
+			<div class="product-info">
+				<h2>Benefit They're Real! Mascara</h2>
+				<p>A volumizing and lengthening mascara</p>
+				<button class="button">Buy Now</button>
+			</div>
+		
